@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Win98IconLib.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accesibility_window_abc.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_big_keys.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_contrast.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_kbd_mouse.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_key_pointer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_stopwatch.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_toggle.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_toggle2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_toggle3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_two_windows.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_window_objs.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_window_signal.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\accessibility_window_speak.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\access_wheelchair_big.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\active_movie.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ac_plug.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_card.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_cards.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_card_copy.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_card_users.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_copy.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_home.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_pad.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_pad_users.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_user.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\address_book_users.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\amplify.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\application_hammer_grouppol.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\application_hourglass.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\application_hourglass_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\application_hourglass_small_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\appwizard.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\appwizard_list.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\appwiz_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\audio_compression.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\backup_devices.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\backup_devices_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\bar_graph.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\bar_graph_default.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\battery.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\battery_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\briefcase.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\c-clamp.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cable.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cable_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cable_3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\calculator.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\calendar.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\calendar2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera3_network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera3_plus.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera3_vid.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera_vid.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\camera_vid_ms.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cardfile.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\card_reader.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\card_reader_empty.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\card_reader_not.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\card_reader_restr.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cassette_tape.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\catalog.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\catalog_excl.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\catalog_no.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cd_audio_cd.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cd_audio_cd_a.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cd_drive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cd_drive_purple.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_2_excl.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_2_no.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_application.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_checklist.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_envelope_key.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_excl.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_multiple.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_no.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_red_line.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_seal.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_seal_lock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\certificate_server.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\channels.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\channels_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\charmap.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\charmap_w2k.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\chart1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\check.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\chip_ramdrive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\chm.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\circle_question.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\clean_drive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\clock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\color_profile.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\color_profile_gray.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_2_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_explorer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_explorer_2k.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_explorer_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_musical_keyboard.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_padlock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_search.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_sound.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_taskmgr.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_user_pencil.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_win.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\computer_win_lock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\connected_world.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_cloud.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_cloud_ok.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_dialup.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_dialup_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_dialup_ok.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_dialup_recbin_phone.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_dialup_recbin_phones.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_network_no_phone.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_pcs_no_network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_pcs_off_off.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_pcs_off_on.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_pcs_on_off.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\conn_pcs_on_on.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\console_prompt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\cylinder_database.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\defragment.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\desktop.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\desktop_old.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\desktop_w95.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\device_rhombic_chip.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_admin_tools.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_business_calendar.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_channels.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_check.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_closed.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_closed_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_closed_history.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_computer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_control_panel.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_control_panel_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_dial-up_networking.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_dial-up_networking_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_e.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_explorer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_e_open.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_favorites.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_favorites_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_folder_options.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_fonts.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_fonts_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_fonts_shortcut.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_movie.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_network_conn.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_network_conn_shortcut.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_net_web.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_cabinet.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_cabinet_fc.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_file_mydocs.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_file_mydocs_2k.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_file_mydocs_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_file_mydocs_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_history.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_net_web_documents.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_open_refresh.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_pictures.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_printer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_printer_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_printer_shortcut.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_program_group.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_program_group_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_program_group_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_program_group_small_c.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_scanner_camera.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_sched_tasks.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_seven.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_shared.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_web.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_zipper.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directory_zipper_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directx.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\directx_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\direct_cable_conn.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\diskettes_copy.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\display_properties.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\doctor_watson.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\document.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\download.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\drum_onestick.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\eject_pc.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\eject_pc_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\eject_pc_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\eject_pc_shell32.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\entire_network_globe.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\envelope_closed.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\envelope_open_sheet.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\erase_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\event_log.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\executable.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\executable_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\executable_script.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\executable_sound.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\expand_hierarchial_array.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\expansion_board.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\expansion_board_modem.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\fax_machine.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\fax_machine_exclam.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\fax_machine_paperstack.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\filepack.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_blue_grad_paint.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_cd.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_eye.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_gears.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_lines.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_padlock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_program_group.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_question.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_set.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_sorted_lock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_windows.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\file_win_shortcut.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\floppy_drive_3-5.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\floppy_drive_3-5_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\floppy_drive_5-25.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\floppy_drive_5-25_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\font_adobe.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\font_bitmap.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\font_opentype.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\font_tt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\font_tt_green.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\frame_web.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\game_freecell.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\game_hearts.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\game_mine_1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\game_mine_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\game_solitaire.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\game_spider.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\gears.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\gears_3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\gears_tweakui_a.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\gears_tweakui_b.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\globe_map.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\gps.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\graphedit.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\graphedit_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\graphedit_file_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\hardware.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\hard_disk_drive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\hard_disk_drives.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\hard_disk_drive_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\hard_disk_drive_pie.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\hard_disk_drive_tools.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\help_book_big.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\help_book_computer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\help_book_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\help_book_cool_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\help_book_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\help_question_mark.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\help_sheet.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\history.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\homepage.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\homepage_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\html.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\html2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\html2_new.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\icon6.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\image_old_gif.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\image_old_jpeg.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\imagGIF.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\imagJPEG.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\imagKoda.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\imagOthe.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\imagPNG.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\imagWMF.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\infrared.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\input_devices.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\installer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\installer_file_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\installer_generic_old.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\internet_connection_wiz.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\internet_options.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\internet_options_old_e.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ipconfig.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\java.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\java_dpf.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\java_ocx.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\joystick.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\joystick_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\joystick_button.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\keyboard.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\keyboard_delay.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\keyboard_musical.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\keyboard_musical_midi.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\keyboard_repeat_rate.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\keys.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\key_gray.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\key_padlock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\key_padlock_help.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\key_webfile.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\key_win.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\key_win_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\key_world.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\kodak_imaging.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\kodak_imaging_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\laptop.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\laptop_infrared.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\laptop_infrared_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\laptop_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\loudspeaker_muted.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\loudspeaker_rays.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\loudspeaker_rays_green.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\loudspeaker_wave.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\magnifying_glass.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\magnifying_glass_3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\magnifying_glass_4.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mailbox_world.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mci_devices.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_conn1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_conn2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_mono.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_no.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_no2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_stereo.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_sun0.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_sun1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_sun2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_sun3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\media_player_stream_sun4.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\memory.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\message_empty_tack.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\message_envelope_open.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\message_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\message_tack.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\microphone.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\microphone_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\midi_bl.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\midi_gr.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\midi_mg.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\midi_tl.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\minesweeper.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mixer_cd_sound.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mixer_keyboard_musical.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mixer_sound.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\modem.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\monitor_application.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\monitor_black.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\monitor_blue_grad.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\monitor_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\monitor_moon.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\monitor_tweakui.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\monitor_windows.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_hide.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_location.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_ms.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_padlock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_snap.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_speed.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_trails.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mouse_wireless.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\move_system_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\movie_maker.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ms-dos.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ms-dos_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msagent.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msagent_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msconfig.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msg_error.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msg_information.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msg_question.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msg_warning.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msg_warning_inv.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\mshearts.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msie1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msie2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msie_box.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msinfo32.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msn.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msn2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msn3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\msn_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\multimedia.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\nail.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\netmeeting.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\netmeeting_share.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\netshow.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\netshow_arrow.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\netshow_notransm.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_cool_two_pcs.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_drive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_drive_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_drive_unavailable.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_drive_unavailable_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_drive_world.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_internet_pcs_installer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_normal_two_pcs.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_television.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_televisons.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\network_three_pcs.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\newspaper.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\newspaper_mail.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\no.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\no2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\note.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\notepad.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\notepad_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\notepad_file_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\odbc.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ole.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ole2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\outlook_express.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\outlook_express_tack.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\outlook_express_tack_drive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\outlook_express_tack_folder.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\overlay_black.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\overlay_refresh.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\overlay_share.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\overlay_share_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\overlay_shortcut.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\package.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\paint.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\paintbrush.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\paint_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\paint_old.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\paint_window.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\palm_computer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\paper_roll.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\pci_card.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\pci_card_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\pcx.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\pcx_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\phone_desk.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\pictures.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\pie_chart_drvspace.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\pifedit.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\power_management.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_big.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_def.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_def_diskette.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_def_network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_desk.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_diskette.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_feeding_slot.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_pause.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_play.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_plotter.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_question.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_shared.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_slim.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\printer_slot_filled.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\print_server.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\processor.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\program_manager.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ram_drive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_directory.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_empty.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_empty_2k.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_empty_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_file_directory.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_full.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_full_2k.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\recycle_bin_full_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\regedit.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\regedit_binary.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\regedit_binary_lock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\regedit_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\regedit_string.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\registration.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\registration_no.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\removable_disk_drive.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\removable_disk_drive_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\rename.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\replace_directory.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\replace_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\restrict.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\rj_jack.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\Roland_GS.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scandisk.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scanner.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scanner_alt.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scanner_alt_network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scanner_camera.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scanner_video_cam.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scanregw.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\sched_tasks.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\screen_keyboard.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\script_file_blue.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\script_file_teal.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\script_file_yellow.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\scsi.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_computer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_directory.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_file_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_file_2_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_file_3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_laptop_1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_laptop_2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_laptop_3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_laptop_4.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_server.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\search_web.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\server_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\server_to_desktop.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\server_window.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\settings_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\settings_gear_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shell_window1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shell_window2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shell_window3.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shell_window4.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shell_window5.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shell_window6.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shut_down_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shut_down_normal.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\shut_down_with_computer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\signature.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\signature_excl.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\signature_no.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\sndvol32_input.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\sndvol32_main.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\sndvol32_output.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\SoundGrn.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\SoundPu2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\SoundPur.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\SoundTel.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\SoundVor.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\SoundYel.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\spider.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\standby_monitor_moon.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\standby_monitor_moon_cool.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\start_menu_shortcuts.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\start_menu_xp.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\system_restore.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\telephony.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_directory_net_web.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_empty.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_nework_conn.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_nework_places.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_printer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_scanner_camera.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_sched_task.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\template_world.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\themes.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\time_and_date.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\tip.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\tools_gear.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\tree.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\true_type_paint.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\trust0.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\trust1_restrict.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\tune-up.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\unplug_eject_pc.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\unplug_storage.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\ups.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\url1.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\url1a.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\url2.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\usb.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\usb_port.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\users.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\users_green.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\users_key.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\user_calendar.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\user_card.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\user_card_view.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\user_computer.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\user_computer_pair.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\user_network.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\user_world.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\utopia_smiley.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\video_.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\video_compression.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\video_gr.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\video_mg.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\video_mk.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\video_tl.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\web_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\web_file_set.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\wia_img_a.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\wia_img_check.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\wia_img_color.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\wia_img_color_sound.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\wia_img_gray.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_button.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_movie.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_slanted.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_three.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_title.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_update_large.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_update_old.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\windows_update_small.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\window_red_hilights.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\WinRep.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\winrep_mag_glass.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\wm.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\wm_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\world.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\world_address_book.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\world_lock.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\world_network_directories.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\world_phonereceiver.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\world_star.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\write_card_phone.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\write_file.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\write_red.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\write_wordpad.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\write_yellow.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\xml.ico" />
+    <Image Include="..\..\..\..\..\..\..\win98_icons\ico\xml_gear.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a0b99aa4-62d7-4689-a458-21060579b8ad}</ProjectGuid>
+    <RootNamespace>Win98IconLib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;WIN98ICONLIB_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <NoEntryPoint>true</NoEntryPoint>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;WIN98ICONLIB_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <NoEntryPoint>true</NoEntryPoint>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;WIN98ICONLIB_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;WIN98ICONLIB_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

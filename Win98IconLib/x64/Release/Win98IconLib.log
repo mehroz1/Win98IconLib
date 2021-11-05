@@ -1,0 +1,2 @@
+﻿LINK : error LNK2001: unresolved external symbol _DllMainCRTStartup
+C:\Users\Admin\Documents\Visual Studio 2019\Projects\Win98IconLib\x64\Release\Win98IconLib.dll : fatal error LNK1120: 1 unresolved externals

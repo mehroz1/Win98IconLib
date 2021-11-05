@@ -1,0 +1,1323 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "C:\\win98_icons\\ico\\ac_plug.ico"
+
+IDI_ICON2               ICON                    "C:\\win98_icons\\ico\\accesibility_window_abc.ico"
+
+IDI_ICON3               ICON                    "C:\\win98_icons\\ico\\access_wheelchair_big.ico"
+
+IDI_ICON4               ICON                    "C:\\win98_icons\\ico\\accessibility.ico"
+
+IDI_ICON5               ICON                    "C:\\win98_icons\\ico\\accessibility_big_keys.ico"
+
+IDI_ICON6               ICON                    "C:\\win98_icons\\ico\\accessibility_contrast.ico"
+
+IDI_ICON7               ICON                    "C:\\win98_icons\\ico\\accessibility_kbd_mouse.ico"
+
+IDI_ICON8               ICON                    "C:\\win98_icons\\ico\\accessibility_key_pointer.ico"
+
+IDI_ICON9               ICON                    "C:\\win98_icons\\ico\\accessibility_stopwatch.ico"
+
+IDI_ICON10              ICON                    "C:\\win98_icons\\ico\\accessibility_toggle.ico"
+
+IDI_ICON11              ICON                    "C:\\win98_icons\\ico\\accessibility_toggle2.ico"
+
+IDI_ICON12              ICON                    "C:\\win98_icons\\ico\\accessibility_toggle3.ico"
+
+IDI_ICON13              ICON                    "C:\\win98_icons\\ico\\accessibility_two_windows.ico"
+
+IDI_ICON14              ICON                    "C:\\win98_icons\\ico\\accessibility_window_objs.ico"
+
+IDI_ICON15              ICON                    "C:\\win98_icons\\ico\\accessibility_window_signal.ico"
+
+IDI_ICON16              ICON                    "C:\\win98_icons\\ico\\accessibility_window_speak.ico"
+
+IDI_ICON17              ICON                    "C:\\win98_icons\\ico\\active_movie.ico"
+
+IDI_ICON18              ICON                    "C:\\win98_icons\\ico\\address_book.ico"
+
+IDI_ICON19              ICON                    "C:\\win98_icons\\ico\\address_book_card.ico"
+
+IDI_ICON20              ICON                    "C:\\win98_icons\\ico\\address_book_card_copy.ico"
+
+IDI_ICON21              ICON                    "C:\\win98_icons\\ico\\address_book_card_users.ico"
+
+IDI_ICON22              ICON                    "C:\\win98_icons\\ico\\address_book_cards.ico"
+
+IDI_ICON23              ICON                    "C:\\win98_icons\\ico\\address_book_copy.ico"
+
+IDI_ICON24              ICON                    "C:\\win98_icons\\ico\\address_book_home.ico"
+
+IDI_ICON25              ICON                    "C:\\win98_icons\\ico\\address_book_pad.ico"
+
+IDI_ICON26              ICON                    "C:\\win98_icons\\ico\\address_book_pad_users.ico"
+
+IDI_ICON27              ICON                    "C:\\win98_icons\\ico\\address_book_user.ico"
+
+IDI_ICON28              ICON                    "C:\\win98_icons\\ico\\address_book_users.ico"
+
+IDI_ICON29              ICON                    "C:\\win98_icons\\ico\\amplify.ico"
+
+IDI_ICON30              ICON                    "C:\\win98_icons\\ico\\application_hammer_grouppol.ico"
+
+IDI_ICON31              ICON                    "C:\\win98_icons\\ico\\application_hourglass.ico"
+
+IDI_ICON32              ICON                    "C:\\win98_icons\\ico\\application_hourglass_small.ico"
+
+IDI_ICON33              ICON                    "C:\\win98_icons\\ico\\application_hourglass_small_cool.ico"
+
+IDI_ICON34              ICON                    "C:\\win98_icons\\ico\\appwiz_file.ico"
+
+IDI_ICON35              ICON                    "C:\\win98_icons\\ico\\appwizard.ico"
+
+IDI_ICON36              ICON                    "C:\\win98_icons\\ico\\appwizard_list.ico"
+
+IDI_ICON37              ICON                    "C:\\win98_icons\\ico\\audio_compression.ico"
+
+IDI_ICON38              ICON                    "C:\\win98_icons\\ico\\backup_devices.ico"
+
+IDI_ICON39              ICON                    "C:\\win98_icons\\ico\\backup_devices_2.ico"
+
+IDI_ICON40              ICON                    "C:\\win98_icons\\ico\\bar_graph.ico"
+
+IDI_ICON41              ICON                    "C:\\win98_icons\\ico\\bar_graph_default.ico"
+
+IDI_ICON42              ICON                    "C:\\win98_icons\\ico\\battery.ico"
+
+IDI_ICON43              ICON                    "C:\\win98_icons\\ico\\battery_alt.ico"
+
+IDI_ICON44              ICON                    "C:\\win98_icons\\ico\\briefcase.ico"
+
+IDI_ICON45              ICON                    "C:\\win98_icons\\ico\\cable.ico"
+
+IDI_ICON46              ICON                    "C:\\win98_icons\\ico\\cable_2.ico"
+
+IDI_ICON47              ICON                    "C:\\win98_icons\\ico\\cable_3.ico"
+
+IDI_ICON48              ICON                    "C:\\win98_icons\\ico\\calculator.ico"
+
+IDI_ICON49              ICON                    "C:\\win98_icons\\ico\\calendar.ico"
+
+IDI_ICON50              ICON                    "C:\\win98_icons\\ico\\calendar2.ico"
+
+IDI_ICON51              ICON                    "C:\\win98_icons\\ico\\camera.ico"
+
+IDI_ICON52              ICON                    "C:\\win98_icons\\ico\\camera_2.ico"
+
+IDI_ICON53              ICON                    "C:\\win98_icons\\ico\\camera_vid.ico"
+
+IDI_ICON54              ICON                    "C:\\win98_icons\\ico\\camera_vid_ms.ico"
+
+IDI_ICON55              ICON                    "C:\\win98_icons\\ico\\camera3.ico"
+
+IDI_ICON56              ICON                    "C:\\win98_icons\\ico\\camera3_network.ico"
+
+IDI_ICON57              ICON                    "C:\\win98_icons\\ico\\camera3_plus.ico"
+
+IDI_ICON58              ICON                    "C:\\win98_icons\\ico\\camera3_vid.ico"
+
+IDI_ICON59              ICON                    "C:\\win98_icons\\ico\\card_reader.ico"
+
+IDI_ICON60              ICON                    "C:\\win98_icons\\ico\\card_reader_empty.ico"
+
+IDI_ICON61              ICON                    "C:\\win98_icons\\ico\\card_reader_not.ico"
+
+IDI_ICON62              ICON                    "C:\\win98_icons\\ico\\card_reader_restr.ico"
+
+IDI_ICON63              ICON                    "C:\\win98_icons\\ico\\cardfile.ico"
+
+IDI_ICON64              ICON                    "C:\\win98_icons\\ico\\cassette_tape.ico"
+
+IDI_ICON65              ICON                    "C:\\win98_icons\\ico\\catalog.ico"
+
+IDI_ICON66              ICON                    "C:\\win98_icons\\ico\\catalog_excl.ico"
+
+IDI_ICON67              ICON                    "C:\\win98_icons\\ico\\catalog_no.ico"
+
+IDI_ICON68              ICON                    "C:\\win98_icons\\ico\\c-clamp.ico"
+
+IDI_ICON69              ICON                    "C:\\win98_icons\\ico\\cd_audio_cd.ico"
+
+IDI_ICON70              ICON                    "C:\\win98_icons\\ico\\cd_audio_cd_a.ico"
+
+IDI_ICON71              ICON                    "C:\\win98_icons\\ico\\cd_drive.ico"
+
+IDI_ICON72              ICON                    "C:\\win98_icons\\ico\\cd_drive_purple.ico"
+
+IDI_ICON73              ICON                    "C:\\win98_icons\\ico\\certificate.ico"
+
+IDI_ICON74              ICON                    "C:\\win98_icons\\ico\\certificate_2.ico"
+
+IDI_ICON75              ICON                    "C:\\win98_icons\\ico\\certificate_2_excl.ico"
+
+IDI_ICON76              ICON                    "C:\\win98_icons\\ico\\certificate_2_no.ico"
+
+IDI_ICON77              ICON                    "C:\\win98_icons\\ico\\certificate_3.ico"
+
+IDI_ICON78              ICON                    "C:\\win98_icons\\ico\\certificate_application.ico"
+
+IDI_ICON79              ICON                    "C:\\win98_icons\\ico\\certificate_checklist.ico"
+
+IDI_ICON80              ICON                    "C:\\win98_icons\\ico\\certificate_envelope_key.ico"
+
+IDI_ICON81              ICON                    "C:\\win98_icons\\ico\\certificate_excl.ico"
+
+IDI_ICON82              ICON                    "C:\\win98_icons\\ico\\certificate_gear.ico"
+
+IDI_ICON83              ICON                    "C:\\win98_icons\\ico\\certificate_multiple.ico"
+
+IDI_ICON84              ICON                    "C:\\win98_icons\\ico\\certificate_no.ico"
+
+IDI_ICON85              ICON                    "C:\\win98_icons\\ico\\certificate_red_line.ico"
+
+IDI_ICON86              ICON                    "C:\\win98_icons\\ico\\certificate_seal.ico"
+
+IDI_ICON87              ICON                    "C:\\win98_icons\\ico\\certificate_seal_lock.ico"
+
+IDI_ICON88              ICON                    "C:\\win98_icons\\ico\\certificate_server.ico"
+
+IDI_ICON89              ICON                    "C:\\win98_icons\\ico\\channels.ico"
+
+IDI_ICON90              ICON                    "C:\\win98_icons\\ico\\channels_file.ico"
+
+IDI_ICON91              ICON                    "C:\\win98_icons\\ico\\charmap.ico"
+
+IDI_ICON92              ICON                    "C:\\win98_icons\\ico\\charmap_w2k.ico"
+
+IDI_ICON93              ICON                    "C:\\win98_icons\\ico\\chart1.ico"
+
+IDI_ICON94              ICON                    "C:\\win98_icons\\ico\\check.ico"
+
+IDI_ICON95              ICON                    "C:\\win98_icons\\ico\\chip_ramdrive.ico"
+
+IDI_ICON96              ICON                    "C:\\win98_icons\\ico\\chm.ico"
+
+IDI_ICON97              ICON                    "C:\\win98_icons\\ico\\circle_question.ico"
+
+IDI_ICON98              ICON                    "C:\\win98_icons\\ico\\clean_drive.ico"
+
+IDI_ICON99              ICON                    "C:\\win98_icons\\ico\\clock.ico"
+
+IDI_ICON100             ICON                    "C:\\win98_icons\\ico\\color_profile.ico"
+
+IDI_ICON101             ICON                    "C:\\win98_icons\\ico\\color_profile_gray.ico"
+
+IDI_ICON102             ICON                    "C:\\win98_icons\\ico\\computer.ico"
+
+IDI_ICON103             ICON                    "C:\\win98_icons\\ico\\computer_2.ico"
+
+IDI_ICON104             ICON                    "C:\\win98_icons\\ico\\computer_2_cool.ico"
+
+IDI_ICON105             ICON                    "C:\\win98_icons\\ico\\computer_explorer.ico"
+
+IDI_ICON106             ICON                    "C:\\win98_icons\\ico\\computer_explorer_2k.ico"
+
+IDI_ICON107             ICON                    "C:\\win98_icons\\ico\\computer_explorer_cool.ico"
+
+IDI_ICON108             ICON                    "C:\\win98_icons\\ico\\computer_gear.ico"
+
+IDI_ICON109             ICON                    "C:\\win98_icons\\ico\\computer_musical_keyboard.ico"
+
+IDI_ICON110             ICON                    "C:\\win98_icons\\ico\\computer_padlock.ico"
+
+IDI_ICON111             ICON                    "C:\\win98_icons\\ico\\computer_search.ico"
+
+IDI_ICON112             ICON                    "C:\\win98_icons\\ico\\computer_sound.ico"
+
+IDI_ICON113             ICON                    "C:\\win98_icons\\ico\\computer_taskmgr.ico"
+
+IDI_ICON114             ICON                    "C:\\win98_icons\\ico\\computer_user_pencil.ico"
+
+IDI_ICON115             ICON                    "C:\\win98_icons\\ico\\computer_win.ico"
+
+IDI_ICON116             ICON                    "C:\\win98_icons\\ico\\computer_win_lock.ico"
+
+IDI_ICON117             ICON                    "C:\\win98_icons\\ico\\conn_cloud.ico"
+
+IDI_ICON118             ICON                    "C:\\win98_icons\\ico\\conn_cloud_ok.ico"
+
+IDI_ICON119             ICON                    "C:\\win98_icons\\ico\\conn_dialup.ico"
+
+IDI_ICON120             ICON                    "C:\\win98_icons\\ico\\conn_dialup_alt.ico"
+
+IDI_ICON121             ICON                    "C:\\win98_icons\\ico\\conn_dialup_ok.ico"
+
+IDI_ICON122             ICON                    "C:\\win98_icons\\ico\\conn_dialup_recbin_phone.ico"
+
+IDI_ICON123             ICON                    "C:\\win98_icons\\ico\\conn_dialup_recbin_phones.ico"
+
+IDI_ICON124             ICON                    "C:\\win98_icons\\ico\\conn_network_no_phone.ico"
+
+IDI_ICON125             ICON                    "C:\\win98_icons\\ico\\conn_pcs_no_network.ico"
+
+IDI_ICON126             ICON                    "C:\\win98_icons\\ico\\conn_pcs_off_off.ico"
+
+IDI_ICON127             ICON                    "C:\\win98_icons\\ico\\conn_pcs_off_on.ico"
+
+IDI_ICON128             ICON                    "C:\\win98_icons\\ico\\conn_pcs_on_off.ico"
+
+IDI_ICON129             ICON                    "C:\\win98_icons\\ico\\conn_pcs_on_on.ico"
+
+IDI_ICON130             ICON                    "C:\\win98_icons\\ico\\connected_world.ico"
+
+IDI_ICON131             ICON                    "C:\\win98_icons\\ico\\console_prompt.ico"
+
+IDI_ICON132             ICON                    "C:\\win98_icons\\ico\\cylinder_database.ico"
+
+IDI_ICON133             ICON                    "C:\\win98_icons\\ico\\defragment.ico"
+
+IDI_ICON134             ICON                    "C:\\win98_icons\\ico\\desktop.ico"
+
+IDI_ICON135             ICON                    "C:\\win98_icons\\ico\\desktop_old.ico"
+
+IDI_ICON136             ICON                    "C:\\win98_icons\\ico\\desktop_w95.ico"
+
+IDI_ICON137             ICON                    "C:\\win98_icons\\ico\\device_rhombic_chip.ico"
+
+IDI_ICON138             ICON                    "C:\\win98_icons\\ico\\direct_cable_conn.ico"
+
+IDI_ICON139             ICON                    "C:\\win98_icons\\ico\\directory_admin_tools.ico"
+
+IDI_ICON140             ICON                    "C:\\win98_icons\\ico\\directory_business_calendar.ico"
+
+IDI_ICON141             ICON                    "C:\\win98_icons\\ico\\directory_channels.ico"
+
+IDI_ICON142             ICON                    "C:\\win98_icons\\ico\\directory_check.ico"
+
+IDI_ICON143             ICON                    "C:\\win98_icons\\ico\\directory_closed.ico"
+
+IDI_ICON144             ICON                    "C:\\win98_icons\\ico\\directory_closed_cool.ico"
+
+IDI_ICON145             ICON                    "C:\\win98_icons\\ico\\directory_closed_history.ico"
+
+IDI_ICON146             ICON                    "C:\\win98_icons\\ico\\directory_computer.ico"
+
+IDI_ICON147             ICON                    "C:\\win98_icons\\ico\\directory_control_panel.ico"
+
+IDI_ICON148             ICON                    "C:\\win98_icons\\ico\\directory_control_panel_cool.ico"
+
+IDI_ICON149             ICON                    "C:\\win98_icons\\ico\\directory_dial-up_networking.ico"
+
+IDI_ICON150             ICON                    "C:\\win98_icons\\ico\\directory_dial-up_networking_cool.ico"
+
+IDI_ICON151             ICON                    "C:\\win98_icons\\ico\\directory_e.ico"
+
+IDI_ICON152             ICON                    "C:\\win98_icons\\ico\\directory_e_open.ico"
+
+IDI_ICON153             ICON                    "C:\\win98_icons\\ico\\directory_explorer.ico"
+
+IDI_ICON154             ICON                    "C:\\win98_icons\\ico\\directory_favorites.ico"
+
+IDI_ICON155             ICON                    "C:\\win98_icons\\ico\\directory_favorites_small.ico"
+
+IDI_ICON156             ICON                    "C:\\win98_icons\\ico\\directory_folder_options.ico"
+
+IDI_ICON157             ICON                    "C:\\win98_icons\\ico\\directory_fonts.ico"
+
+IDI_ICON158             ICON                    "C:\\win98_icons\\ico\\directory_fonts_cool.ico"
+
+IDI_ICON159             ICON                    "C:\\win98_icons\\ico\\directory_fonts_shortcut.ico"
+
+IDI_ICON160             ICON                    "C:\\win98_icons\\ico\\directory_movie.ico"
+
+IDI_ICON161             ICON                    "C:\\win98_icons\\ico\\directory_net_web.ico"
+
+IDI_ICON162             ICON                    "C:\\win98_icons\\ico\\directory_network_conn.ico"
+
+IDI_ICON163             ICON                    "C:\\win98_icons\\ico\\directory_network_conn_shortcut.ico"
+
+IDI_ICON164             ICON                    "C:\\win98_icons\\ico\\directory_open.ico"
+
+IDI_ICON165             ICON                    "C:\\win98_icons\\ico\\directory_open_cabinet.ico"
+
+IDI_ICON166             ICON                    "C:\\win98_icons\\ico\\directory_open_cabinet_fc.ico"
+
+IDI_ICON167             ICON                    "C:\\win98_icons\\ico\\directory_open_cool.ico"
+
+IDI_ICON168             ICON                    "C:\\win98_icons\\ico\\directory_open_file_mydocs.ico"
+
+IDI_ICON169             ICON                    "C:\\win98_icons\\ico\\directory_open_file_mydocs_2k.ico"
+
+IDI_ICON170             ICON                    "C:\\win98_icons\\ico\\directory_open_file_mydocs_cool.ico"
+
+IDI_ICON171             ICON                    "C:\\win98_icons\\ico\\directory_open_file_mydocs_small.ico"
+
+IDI_ICON172             ICON                    "C:\\win98_icons\\ico\\directory_open_history.ico"
+
+IDI_ICON173             ICON                    "C:\\win98_icons\\ico\\directory_open_net_web_documents.ico"
+
+IDI_ICON174             ICON                    "C:\\win98_icons\\ico\\directory_open_network.ico"
+
+IDI_ICON175             ICON                    "C:\\win98_icons\\ico\\directory_open_refresh.ico"
+
+IDI_ICON176             ICON                    "C:\\win98_icons\\ico\\directory_pictures.ico"
+
+IDI_ICON177             ICON                    "C:\\win98_icons\\ico\\directory_printer.ico"
+
+IDI_ICON178             ICON                    "C:\\win98_icons\\ico\\directory_printer_cool.ico"
+
+IDI_ICON179             ICON                    "C:\\win98_icons\\ico\\directory_printer_shortcut.ico"
+
+IDI_ICON180             ICON                    "C:\\win98_icons\\ico\\directory_program_group.ico"
+
+IDI_ICON181             ICON                    "C:\\win98_icons\\ico\\directory_program_group_cool.ico"
+
+IDI_ICON182             ICON                    "C:\\win98_icons\\ico\\directory_program_group_small.ico"
+
+IDI_ICON183             ICON                    "C:\\win98_icons\\ico\\directory_program_group_small_c.ico"
+
+IDI_ICON184             ICON                    "C:\\win98_icons\\ico\\directory_scanner_camera.ico"
+
+IDI_ICON185             ICON                    "C:\\win98_icons\\ico\\directory_sched_tasks.ico"
+
+IDI_ICON186             ICON                    "C:\\win98_icons\\ico\\directory_seven.ico"
+
+IDI_ICON187             ICON                    "C:\\win98_icons\\ico\\directory_shared.ico"
+
+IDI_ICON188             ICON                    "C:\\win98_icons\\ico\\directory_web.ico"
+
+IDI_ICON189             ICON                    "C:\\win98_icons\\ico\\directory_zipper.ico"
+
+IDI_ICON190             ICON                    "C:\\win98_icons\\ico\\directory_zipper_alt.ico"
+
+IDI_ICON191             ICON                    "C:\\win98_icons\\ico\\directx.ico"
+
+IDI_ICON192             ICON                    "C:\\win98_icons\\ico\\directx_alt.ico"
+
+IDI_ICON193             ICON                    "C:\\win98_icons\\ico\\diskettes_copy.ico"
+
+IDI_ICON194             ICON                    "C:\\win98_icons\\ico\\display_properties.ico"
+
+IDI_ICON195             ICON                    "C:\\win98_icons\\ico\\doctor_watson.ico"
+
+IDI_ICON196             ICON                    "C:\\win98_icons\\ico\\document.ico"
+
+IDI_ICON197             ICON                    "C:\\win98_icons\\ico\\download.ico"
+
+IDI_ICON198             ICON                    "C:\\win98_icons\\ico\\drum_onestick.ico"
+
+IDI_ICON199             ICON                    "C:\\win98_icons\\ico\\eject_pc.ico"
+
+IDI_ICON200             ICON                    "C:\\win98_icons\\ico\\eject_pc_2.ico"
+
+IDI_ICON201             ICON                    "C:\\win98_icons\\ico\\eject_pc_cool.ico"
+
+IDI_ICON202             ICON                    "C:\\win98_icons\\ico\\eject_pc_shell32.ico"
+
+IDI_ICON203             ICON                    "C:\\win98_icons\\ico\\entire_network_globe.ico"
+
+IDI_ICON204             ICON                    "C:\\win98_icons\\ico\\envelope_closed.ico"
+
+IDI_ICON205             ICON                    "C:\\win98_icons\\ico\\envelope_open_sheet.ico"
+
+IDI_ICON206             ICON                    "C:\\win98_icons\\ico\\erase_file.ico"
+
+IDI_ICON207             ICON                    "C:\\win98_icons\\ico\\event_log.ico"
+
+IDI_ICON208             ICON                    "C:\\win98_icons\\ico\\executable.ico"
+
+IDI_ICON209             ICON                    "C:\\win98_icons\\ico\\executable_gear.ico"
+
+IDI_ICON210             ICON                    "C:\\win98_icons\\ico\\executable_script.ico"
+
+IDI_ICON211             ICON                    "C:\\win98_icons\\ico\\executable_sound.ico"
+
+IDI_ICON212             ICON                    "C:\\win98_icons\\ico\\expand_hierarchial_array.ico"
+
+IDI_ICON213             ICON                    "C:\\win98_icons\\ico\\expansion_board.ico"
+
+IDI_ICON214             ICON                    "C:\\win98_icons\\ico\\expansion_board_modem.ico"
+
+IDI_ICON215             ICON                    "C:\\win98_icons\\ico\\fax_machine.ico"
+
+IDI_ICON216             ICON                    "C:\\win98_icons\\ico\\fax_machine_exclam.ico"
+
+IDI_ICON217             ICON                    "C:\\win98_icons\\ico\\fax_machine_paperstack.ico"
+
+IDI_ICON218             ICON                    "C:\\win98_icons\\ico\\file_blue_grad_paint.ico"
+
+IDI_ICON219             ICON                    "C:\\win98_icons\\ico\\file_cd.ico"
+
+IDI_ICON220             ICON                    "C:\\win98_icons\\ico\\file_eye.ico"
+
+IDI_ICON221             ICON                    "C:\\win98_icons\\ico\\file_gears.ico"
+
+IDI_ICON222             ICON                    "C:\\win98_icons\\ico\\file_lines.ico"
+
+IDI_ICON223             ICON                    "C:\\win98_icons\\ico\\file_padlock.ico"
+
+IDI_ICON224             ICON                    "C:\\win98_icons\\ico\\file_program_group.ico"
+
+IDI_ICON225             ICON                    "C:\\win98_icons\\ico\\file_question.ico"
+
+IDI_ICON226             ICON                    "C:\\win98_icons\\ico\\file_set.ico"
+
+IDI_ICON227             ICON                    "C:\\win98_icons\\ico\\file_sorted_lock.ico"
+
+IDI_ICON228             ICON                    "C:\\win98_icons\\ico\\file_win_shortcut.ico"
+
+IDI_ICON229             ICON                    "C:\\win98_icons\\ico\\file_windows.ico"
+
+IDI_ICON230             ICON                    "C:\\win98_icons\\ico\\filepack.ico"
+
+IDI_ICON231             ICON                    "C:\\win98_icons\\ico\\floppy_drive_3-5.ico"
+
+IDI_ICON232             ICON                    "C:\\win98_icons\\ico\\floppy_drive_3-5_cool.ico"
+
+IDI_ICON233             ICON                    "C:\\win98_icons\\ico\\floppy_drive_5-25.ico"
+
+IDI_ICON234             ICON                    "C:\\win98_icons\\ico\\floppy_drive_5-25_cool.ico"
+
+IDI_ICON235             ICON                    "C:\\win98_icons\\ico\\font_adobe.ico"
+
+IDI_ICON236             ICON                    "C:\\win98_icons\\ico\\font_bitmap.ico"
+
+IDI_ICON237             ICON                    "C:\\win98_icons\\ico\\font_opentype.ico"
+
+IDI_ICON238             ICON                    "C:\\win98_icons\\ico\\font_tt.ico"
+
+IDI_ICON239             ICON                    "C:\\win98_icons\\ico\\font_tt_green.ico"
+
+IDI_ICON240             ICON                    "C:\\win98_icons\\ico\\frame_web.ico"
+
+IDI_ICON241             ICON                    "C:\\win98_icons\\ico\\game_freecell.ico"
+
+IDI_ICON242             ICON                    "C:\\win98_icons\\ico\\game_hearts.ico"
+
+IDI_ICON243             ICON                    "C:\\win98_icons\\ico\\game_mine_1.ico"
+
+IDI_ICON244             ICON                    "C:\\win98_icons\\ico\\game_mine_2.ico"
+
+IDI_ICON245             ICON                    "C:\\win98_icons\\ico\\game_solitaire.ico"
+
+IDI_ICON246             ICON                    "C:\\win98_icons\\ico\\game_spider.ico"
+
+IDI_ICON247             ICON                    "C:\\win98_icons\\ico\\gears.ico"
+
+IDI_ICON248             ICON                    "C:\\win98_icons\\ico\\gears_3.ico"
+
+IDI_ICON249             ICON                    "C:\\win98_icons\\ico\\gears_tweakui_a.ico"
+
+IDI_ICON250             ICON                    "C:\\win98_icons\\ico\\gears_tweakui_b.ico"
+
+IDI_ICON251             ICON                    "C:\\win98_icons\\ico\\globe_map.ico"
+
+IDI_ICON252             ICON                    "C:\\win98_icons\\ico\\gps.ico"
+
+IDI_ICON253             ICON                    "C:\\win98_icons\\ico\\graphedit.ico"
+
+IDI_ICON254             ICON                    "C:\\win98_icons\\ico\\graphedit_file.ico"
+
+IDI_ICON255             ICON                    "C:\\win98_icons\\ico\\graphedit_file_2.ico"
+
+IDI_ICON256             ICON                    "C:\\win98_icons\\ico\\hard_disk_drive.ico"
+
+IDI_ICON257             ICON                    "C:\\win98_icons\\ico\\hard_disk_drive_cool.ico"
+
+IDI_ICON258             ICON                    "C:\\win98_icons\\ico\\hard_disk_drive_pie.ico"
+
+IDI_ICON259             ICON                    "C:\\win98_icons\\ico\\hard_disk_drive_tools.ico"
+
+IDI_ICON260             ICON                    "C:\\win98_icons\\ico\\hard_disk_drives.ico"
+
+IDI_ICON261             ICON                    "C:\\win98_icons\\ico\\hardware.ico"
+
+IDI_ICON262             ICON                    "C:\\win98_icons\\ico\\help_book_big.ico"
+
+IDI_ICON263             ICON                    "C:\\win98_icons\\ico\\help_book_computer.ico"
+
+IDI_ICON264             ICON                    "C:\\win98_icons\\ico\\help_book_cool.ico"
+
+IDI_ICON265             ICON                    "C:\\win98_icons\\ico\\help_book_cool_small.ico"
+
+IDI_ICON266             ICON                    "C:\\win98_icons\\ico\\help_book_small.ico"
+
+IDI_ICON267             ICON                    "C:\\win98_icons\\ico\\help_question_mark.ico"
+
+IDI_ICON268             ICON                    "C:\\win98_icons\\ico\\help_sheet.ico"
+
+IDI_ICON269             ICON                    "C:\\win98_icons\\ico\\history.ico"
+
+IDI_ICON270             ICON                    "C:\\win98_icons\\ico\\homepage.ico"
+
+IDI_ICON271             ICON                    "C:\\win98_icons\\ico\\homepage_alt.ico"
+
+IDI_ICON272             ICON                    "C:\\win98_icons\\ico\\html.ico"
+
+IDI_ICON273             ICON                    "C:\\win98_icons\\ico\\html2.ico"
+
+IDI_ICON274             ICON                    "C:\\win98_icons\\ico\\html2_new.ico"
+
+IDI_ICON275             ICON                    "C:\\win98_icons\\ico\\icon6.ico"
+
+IDI_ICON276             ICON                    "C:\\win98_icons\\ico\\image_old_gif.ico"
+
+IDI_ICON277             ICON                    "C:\\win98_icons\\ico\\image_old_jpeg.ico"
+
+IDI_ICON278             ICON                    "C:\\win98_icons\\ico\\imagGIF.ico"
+
+IDI_ICON279             ICON                    "C:\\win98_icons\\ico\\imagJPEG.ico"
+
+IDI_ICON280             ICON                    "C:\\win98_icons\\ico\\imagKoda.ico"
+
+IDI_ICON281             ICON                    "C:\\win98_icons\\ico\\imagOthe.ico"
+
+IDI_ICON282             ICON                    "C:\\win98_icons\\ico\\imagPNG.ico"
+
+IDI_ICON283             ICON                    "C:\\win98_icons\\ico\\imagWMF.ico"
+
+IDI_ICON284             ICON                    "C:\\win98_icons\\ico\\infrared.ico"
+
+IDI_ICON285             ICON                    "C:\\win98_icons\\ico\\input_devices.ico"
+
+IDI_ICON286             ICON                    "C:\\win98_icons\\ico\\installer.ico"
+
+IDI_ICON287             ICON                    "C:\\win98_icons\\ico\\installer_file_gear.ico"
+
+IDI_ICON288             ICON                    "C:\\win98_icons\\ico\\installer_generic_old.ico"
+
+IDI_ICON289             ICON                    "C:\\win98_icons\\ico\\internet_connection_wiz.ico"
+
+IDI_ICON290             ICON                    "C:\\win98_icons\\ico\\internet_options.ico"
+
+IDI_ICON291             ICON                    "C:\\win98_icons\\ico\\internet_options_old_e.ico"
+
+IDI_ICON292             ICON                    "C:\\win98_icons\\ico\\ipconfig.ico"
+
+IDI_ICON293             ICON                    "C:\\win98_icons\\ico\\java.ico"
+
+IDI_ICON294             ICON                    "C:\\win98_icons\\ico\\java_dpf.ico"
+
+IDI_ICON295             ICON                    "C:\\win98_icons\\ico\\java_ocx.ico"
+
+IDI_ICON296             ICON                    "C:\\win98_icons\\ico\\joystick.ico"
+
+IDI_ICON297             ICON                    "C:\\win98_icons\\ico\\joystick_alt.ico"
+
+IDI_ICON298             ICON                    "C:\\win98_icons\\ico\\joystick_button.ico"
+
+IDI_ICON299             ICON                    "C:\\win98_icons\\ico\\key_gray.ico"
+
+IDI_ICON300             ICON                    "C:\\win98_icons\\ico\\key_padlock.ico"
+
+IDI_ICON301             ICON                    "C:\\win98_icons\\ico\\key_padlock_help.ico"
+
+IDI_ICON302             ICON                    "C:\\win98_icons\\ico\\key_webfile.ico"
+
+IDI_ICON303             ICON                    "C:\\win98_icons\\ico\\key_win.ico"
+
+IDI_ICON304             ICON                    "C:\\win98_icons\\ico\\key_win_alt.ico"
+
+IDI_ICON305             ICON                    "C:\\win98_icons\\ico\\key_world.ico"
+
+IDI_ICON306             ICON                    "C:\\win98_icons\\ico\\keyboard.ico"
+
+IDI_ICON307             ICON                    "C:\\win98_icons\\ico\\keyboard_delay.ico"
+
+IDI_ICON308             ICON                    "C:\\win98_icons\\ico\\keyboard_musical.ico"
+
+IDI_ICON309             ICON                    "C:\\win98_icons\\ico\\keyboard_musical_midi.ico"
+
+IDI_ICON310             ICON                    "C:\\win98_icons\\ico\\keyboard_repeat_rate.ico"
+
+IDI_ICON311             ICON                    "C:\\win98_icons\\ico\\keys.ico"
+
+IDI_ICON312             ICON                    "C:\\win98_icons\\ico\\kodak_imaging.ico"
+
+IDI_ICON313             ICON                    "C:\\win98_icons\\ico\\kodak_imaging_file.ico"
+
+IDI_ICON314             ICON                    "C:\\win98_icons\\ico\\laptop.ico"
+
+IDI_ICON315             ICON                    "C:\\win98_icons\\ico\\laptop_infrared.ico"
+
+IDI_ICON316             ICON                    "C:\\win98_icons\\ico\\laptop_infrared_2.ico"
+
+IDI_ICON317             ICON                    "C:\\win98_icons\\ico\\laptop_small.ico"
+
+IDI_ICON318             ICON                    "C:\\win98_icons\\ico\\loudspeaker_muted.ico"
+
+IDI_ICON319             ICON                    "C:\\win98_icons\\ico\\loudspeaker_rays.ico"
+
+IDI_ICON320             ICON                    "C:\\win98_icons\\ico\\loudspeaker_rays_green.ico"
+
+IDI_ICON321             ICON                    "C:\\win98_icons\\ico\\loudspeaker_wave.ico"
+
+IDI_ICON322             ICON                    "C:\\win98_icons\\ico\\magnifying_glass.ico"
+
+IDI_ICON323             ICON                    "C:\\win98_icons\\ico\\magnifying_glass_3.ico"
+
+IDI_ICON324             ICON                    "C:\\win98_icons\\ico\\magnifying_glass_4.ico"
+
+IDI_ICON325             ICON                    "C:\\win98_icons\\ico\\mailbox_world.ico"
+
+IDI_ICON326             ICON                    "C:\\win98_icons\\ico\\mci_devices.ico"
+
+IDI_ICON327             ICON                    "C:\\win98_icons\\ico\\media_player.ico"
+
+IDI_ICON328             ICON                    "C:\\win98_icons\\ico\\media_player_file.ico"
+
+IDI_ICON329             ICON                    "C:\\win98_icons\\ico\\media_player_stream_conn1.ico"
+
+IDI_ICON330             ICON                    "C:\\win98_icons\\ico\\media_player_stream_conn2.ico"
+
+IDI_ICON331             ICON                    "C:\\win98_icons\\ico\\media_player_stream_mono.ico"
+
+IDI_ICON332             ICON                    "C:\\win98_icons\\ico\\media_player_stream_no.ico"
+
+IDI_ICON333             ICON                    "C:\\win98_icons\\ico\\media_player_stream_no2.ico"
+
+IDI_ICON334             ICON                    "C:\\win98_icons\\ico\\media_player_stream_stereo.ico"
+
+IDI_ICON335             ICON                    "C:\\win98_icons\\ico\\media_player_stream_sun0.ico"
+
+IDI_ICON336             ICON                    "C:\\win98_icons\\ico\\media_player_stream_sun1.ico"
+
+IDI_ICON337             ICON                    "C:\\win98_icons\\ico\\media_player_stream_sun2.ico"
+
+IDI_ICON338             ICON                    "C:\\win98_icons\\ico\\media_player_stream_sun3.ico"
+
+IDI_ICON339             ICON                    "C:\\win98_icons\\ico\\media_player_stream_sun4.ico"
+
+IDI_ICON340             ICON                    "C:\\win98_icons\\ico\\memory.ico"
+
+IDI_ICON341             ICON                    "C:\\win98_icons\\ico\\message_empty_tack.ico"
+
+IDI_ICON342             ICON                    "C:\\win98_icons\\ico\\message_envelope_open.ico"
+
+IDI_ICON343             ICON                    "C:\\win98_icons\\ico\\message_file.ico"
+
+IDI_ICON344             ICON                    "C:\\win98_icons\\ico\\message_tack.ico"
+
+IDI_ICON345             ICON                    "C:\\win98_icons\\ico\\microphone.ico"
+
+IDI_ICON346             ICON                    "C:\\win98_icons\\ico\\microphone_2.ico"
+
+IDI_ICON347             ICON                    "C:\\win98_icons\\ico\\midi_bl.ico"
+
+IDI_ICON348             ICON                    "C:\\win98_icons\\ico\\midi_gr.ico"
+
+IDI_ICON349             ICON                    "C:\\win98_icons\\ico\\midi_mg.ico"
+
+IDI_ICON350             ICON                    "C:\\win98_icons\\ico\\midi_tl.ico"
+
+IDI_ICON351             ICON                    "C:\\win98_icons\\ico\\minesweeper.ico"
+
+IDI_ICON352             ICON                    "C:\\win98_icons\\ico\\mixer_cd_sound.ico"
+
+IDI_ICON353             ICON                    "C:\\win98_icons\\ico\\mixer_keyboard_musical.ico"
+
+IDI_ICON354             ICON                    "C:\\win98_icons\\ico\\mixer_sound.ico"
+
+IDI_ICON355             ICON                    "C:\\win98_icons\\ico\\modem.ico"
+
+IDI_ICON356             ICON                    "C:\\win98_icons\\ico\\monitor_application.ico"
+
+IDI_ICON357             ICON                    "C:\\win98_icons\\ico\\monitor_black.ico"
+
+IDI_ICON358             ICON                    "C:\\win98_icons\\ico\\monitor_blue_grad.ico"
+
+IDI_ICON359             ICON                    "C:\\win98_icons\\ico\\monitor_gear.ico"
+
+IDI_ICON360             ICON                    "C:\\win98_icons\\ico\\monitor_moon.ico"
+
+IDI_ICON361             ICON                    "C:\\win98_icons\\ico\\monitor_tweakui.ico"
+
+IDI_ICON362             ICON                    "C:\\win98_icons\\ico\\monitor_windows.ico"
+
+IDI_ICON363             ICON                    "C:\\win98_icons\\ico\\mouse.ico"
+
+IDI_ICON364             ICON                    "C:\\win98_icons\\ico\\mouse_hide.ico"
+
+IDI_ICON365             ICON                    "C:\\win98_icons\\ico\\mouse_location.ico"
+
+IDI_ICON366             ICON                    "C:\\win98_icons\\ico\\mouse_ms.ico"
+
+IDI_ICON367             ICON                    "C:\\win98_icons\\ico\\mouse_padlock.ico"
+
+IDI_ICON368             ICON                    "C:\\win98_icons\\ico\\mouse_snap.ico"
+
+IDI_ICON369             ICON                    "C:\\win98_icons\\ico\\mouse_speed.ico"
+
+IDI_ICON370             ICON                    "C:\\win98_icons\\ico\\mouse_trails.ico"
+
+IDI_ICON371             ICON                    "C:\\win98_icons\\ico\\mouse_wireless.ico"
+
+IDI_ICON372             ICON                    "C:\\win98_icons\\ico\\move_system_file.ico"
+
+IDI_ICON373             ICON                    "C:\\win98_icons\\ico\\movie_maker.ico"
+
+IDI_ICON374             ICON                    "C:\\win98_icons\\ico\\msagent.ico"
+
+IDI_ICON375             ICON                    "C:\\win98_icons\\ico\\msagent_file.ico"
+
+IDI_ICON376             ICON                    "C:\\win98_icons\\ico\\msconfig.ico"
+
+IDI_ICON377             ICON                    "C:\\win98_icons\\ico\\ms-dos.ico"
+
+IDI_ICON378             ICON                    "C:\\win98_icons\\ico\\ms-dos_2.ico"
+
+IDI_ICON379             ICON                    "C:\\win98_icons\\ico\\msg_error.ico"
+
+IDI_ICON380             ICON                    "C:\\win98_icons\\ico\\msg_information.ico"
+
+IDI_ICON381             ICON                    "C:\\win98_icons\\ico\\msg_question.ico"
+
+IDI_ICON382             ICON                    "C:\\win98_icons\\ico\\msg_warning.ico"
+
+IDI_ICON383             ICON                    "C:\\win98_icons\\ico\\msg_warning_inv.ico"
+
+IDI_ICON384             ICON                    "C:\\win98_icons\\ico\\mshearts.ico"
+
+IDI_ICON385             ICON                    "C:\\win98_icons\\ico\\msie_box.ico"
+
+IDI_ICON386             ICON                    "C:\\win98_icons\\ico\\msie1.ico"
+
+IDI_ICON387             ICON                    "C:\\win98_icons\\ico\\msie2.ico"
+
+IDI_ICON388             ICON                    "C:\\win98_icons\\ico\\msinfo32.ico"
+
+IDI_ICON389             ICON                    "C:\\win98_icons\\ico\\msn.ico"
+
+IDI_ICON390             ICON                    "C:\\win98_icons\\ico\\msn_cool.ico"
+
+IDI_ICON391             ICON                    "C:\\win98_icons\\ico\\msn2.ico"
+
+IDI_ICON392             ICON                    "C:\\win98_icons\\ico\\msn3.ico"
+
+IDI_ICON393             ICON                    "C:\\win98_icons\\ico\\multimedia.ico"
+
+IDI_ICON394             ICON                    "C:\\win98_icons\\ico\\nail.ico"
+
+IDI_ICON395             ICON                    "C:\\win98_icons\\ico\\netmeeting.ico"
+
+IDI_ICON396             ICON                    "C:\\win98_icons\\ico\\netmeeting_share.ico"
+
+IDI_ICON397             ICON                    "C:\\win98_icons\\ico\\netshow.ico"
+
+IDI_ICON398             ICON                    "C:\\win98_icons\\ico\\netshow_arrow.ico"
+
+IDI_ICON399             ICON                    "C:\\win98_icons\\ico\\netshow_notransm.ico"
+
+IDI_ICON400             ICON                    "C:\\win98_icons\\ico\\network.ico"
+
+IDI_ICON401             ICON                    "C:\\win98_icons\\ico\\network_cool_two_pcs.ico"
+
+IDI_ICON402             ICON                    "C:\\win98_icons\\ico\\network_drive.ico"
+
+IDI_ICON403             ICON                    "C:\\win98_icons\\ico\\network_drive_cool.ico"
+
+IDI_ICON404             ICON                    "C:\\win98_icons\\ico\\network_drive_unavailable.ico"
+
+IDI_ICON405             ICON                    "C:\\win98_icons\\ico\\network_drive_unavailable_cool.ico"
+
+IDI_ICON406             ICON                    "C:\\win98_icons\\ico\\network_drive_world.ico"
+
+IDI_ICON407             ICON                    "C:\\win98_icons\\ico\\network_internet_pcs_installer.ico"
+
+IDI_ICON408             ICON                    "C:\\win98_icons\\ico\\network_normal_two_pcs.ico"
+
+IDI_ICON409             ICON                    "C:\\win98_icons\\ico\\network_television.ico"
+
+IDI_ICON410             ICON                    "C:\\win98_icons\\ico\\network_televisons.ico"
+
+IDI_ICON411             ICON                    "C:\\win98_icons\\ico\\network_three_pcs.ico"
+
+IDI_ICON412             ICON                    "C:\\win98_icons\\ico\\newspaper.ico"
+
+IDI_ICON413             ICON                    "C:\\win98_icons\\ico\\newspaper_mail.ico"
+
+IDI_ICON414             ICON                    "C:\\win98_icons\\ico\\no.ico"
+
+IDI_ICON415             ICON                    "C:\\win98_icons\\ico\\no2.ico"
+
+IDI_ICON416             ICON                    "C:\\win98_icons\\ico\\note.ico"
+
+IDI_ICON417             ICON                    "C:\\win98_icons\\ico\\notepad.ico"
+
+IDI_ICON418             ICON                    "C:\\win98_icons\\ico\\notepad_file.ico"
+
+IDI_ICON419             ICON                    "C:\\win98_icons\\ico\\notepad_file_gear.ico"
+
+IDI_ICON420             ICON                    "C:\\win98_icons\\ico\\odbc.ico"
+
+IDI_ICON421             ICON                    "C:\\win98_icons\\ico\\ole.ico"
+
+IDI_ICON422             ICON                    "C:\\win98_icons\\ico\\ole2.ico"
+
+IDI_ICON423             ICON                    "C:\\win98_icons\\ico\\outlook_express.ico"
+
+IDI_ICON424             ICON                    "C:\\win98_icons\\ico\\outlook_express_tack.ico"
+
+IDI_ICON425             ICON                    "C:\\win98_icons\\ico\\outlook_express_tack_drive.ico"
+
+IDI_ICON426             ICON                    "C:\\win98_icons\\ico\\outlook_express_tack_folder.ico"
+
+IDI_ICON427             ICON                    "C:\\win98_icons\\ico\\overlay_black.ico"
+
+IDI_ICON428             ICON                    "C:\\win98_icons\\ico\\overlay_refresh.ico"
+
+IDI_ICON429             ICON                    "C:\\win98_icons\\ico\\overlay_share.ico"
+
+IDI_ICON430             ICON                    "C:\\win98_icons\\ico\\overlay_share_cool.ico"
+
+IDI_ICON431             ICON                    "C:\\win98_icons\\ico\\overlay_shortcut.ico"
+
+IDI_ICON432             ICON                    "C:\\win98_icons\\ico\\package.ico"
+
+IDI_ICON433             ICON                    "C:\\win98_icons\\ico\\paint.ico"
+
+IDI_ICON434             ICON                    "C:\\win98_icons\\ico\\paint_file.ico"
+
+IDI_ICON435             ICON                    "C:\\win98_icons\\ico\\paint_old.ico"
+
+IDI_ICON436             ICON                    "C:\\win98_icons\\ico\\paint_window.ico"
+
+IDI_ICON437             ICON                    "C:\\win98_icons\\ico\\paintbrush.ico"
+
+IDI_ICON438             ICON                    "C:\\win98_icons\\ico\\palm_computer.ico"
+
+IDI_ICON439             ICON                    "C:\\win98_icons\\ico\\paper_roll.ico"
+
+IDI_ICON440             ICON                    "C:\\win98_icons\\ico\\pci_card.ico"
+
+IDI_ICON441             ICON                    "C:\\win98_icons\\ico\\pci_card_alt.ico"
+
+IDI_ICON442             ICON                    "C:\\win98_icons\\ico\\pcx.ico"
+
+IDI_ICON443             ICON                    "C:\\win98_icons\\ico\\pcx_alt.ico"
+
+IDI_ICON444             ICON                    "C:\\win98_icons\\ico\\phone_desk.ico"
+
+IDI_ICON445             ICON                    "C:\\win98_icons\\ico\\pictures.ico"
+
+IDI_ICON446             ICON                    "C:\\win98_icons\\ico\\pie_chart_drvspace.ico"
+
+IDI_ICON447             ICON                    "C:\\win98_icons\\ico\\pifedit.ico"
+
+IDI_ICON448             ICON                    "C:\\win98_icons\\ico\\power_management.ico"
+
+IDI_ICON449             ICON                    "C:\\win98_icons\\ico\\print_server.ico"
+
+IDI_ICON450             ICON                    "C:\\win98_icons\\ico\\printer.ico"
+
+IDI_ICON451             ICON                    "C:\\win98_icons\\ico\\printer_big.ico"
+
+IDI_ICON452             ICON                    "C:\\win98_icons\\ico\\printer_cool.ico"
+
+IDI_ICON453             ICON                    "C:\\win98_icons\\ico\\printer_def.ico"
+
+IDI_ICON454             ICON                    "C:\\win98_icons\\ico\\printer_def_diskette.ico"
+
+IDI_ICON455             ICON                    "C:\\win98_icons\\ico\\printer_def_network.ico"
+
+IDI_ICON456             ICON                    "C:\\win98_icons\\ico\\printer_desk.ico"
+
+IDI_ICON457             ICON                    "C:\\win98_icons\\ico\\printer_diskette.ico"
+
+IDI_ICON458             ICON                    "C:\\win98_icons\\ico\\printer_feeding_slot.ico"
+
+IDI_ICON459             ICON                    "C:\\win98_icons\\ico\\printer_network.ico"
+
+IDI_ICON460             ICON                    "C:\\win98_icons\\ico\\printer_pause.ico"
+
+IDI_ICON461             ICON                    "C:\\win98_icons\\ico\\printer_play.ico"
+
+IDI_ICON462             ICON                    "C:\\win98_icons\\ico\\printer_plotter.ico"
+
+IDI_ICON463             ICON                    "C:\\win98_icons\\ico\\printer_question.ico"
+
+IDI_ICON464             ICON                    "C:\\win98_icons\\ico\\printer_shared.ico"
+
+IDI_ICON465             ICON                    "C:\\win98_icons\\ico\\printer_slim.ico"
+
+IDI_ICON466             ICON                    "C:\\win98_icons\\ico\\printer_slot_filled.ico"
+
+IDI_ICON467             ICON                    "C:\\win98_icons\\ico\\processor.ico"
+
+IDI_ICON468             ICON                    "C:\\win98_icons\\ico\\program_manager.ico"
+
+IDI_ICON469             ICON                    "C:\\win98_icons\\ico\\ram_drive.ico"
+
+IDI_ICON470             ICON                    "C:\\win98_icons\\ico\\recycle_bin_directory.ico"
+
+IDI_ICON471             ICON                    "C:\\win98_icons\\ico\\recycle_bin_empty.ico"
+
+IDI_ICON472             ICON                    "C:\\win98_icons\\ico\\recycle_bin_empty_2k.ico"
+
+IDI_ICON473             ICON                    "C:\\win98_icons\\ico\\recycle_bin_empty_cool.ico"
+
+IDI_ICON474             ICON                    "C:\\win98_icons\\ico\\recycle_bin_file.ico"
+
+IDI_ICON475             ICON                    "C:\\win98_icons\\ico\\recycle_bin_file_directory.ico"
+
+IDI_ICON476             ICON                    "C:\\win98_icons\\ico\\recycle_bin_full.ico"
+
+IDI_ICON477             ICON                    "C:\\win98_icons\\ico\\recycle_bin_full_2k.ico"
+
+IDI_ICON478             ICON                    "C:\\win98_icons\\ico\\recycle_bin_full_cool.ico"
+
+IDI_ICON479             ICON                    "C:\\win98_icons\\ico\\regedit.ico"
+
+IDI_ICON480             ICON                    "C:\\win98_icons\\ico\\regedit_binary.ico"
+
+IDI_ICON481             ICON                    "C:\\win98_icons\\ico\\regedit_binary_lock.ico"
+
+IDI_ICON482             ICON                    "C:\\win98_icons\\ico\\regedit_file.ico"
+
+IDI_ICON483             ICON                    "C:\\win98_icons\\ico\\regedit_string.ico"
+
+IDI_ICON484             ICON                    "C:\\win98_icons\\ico\\registration.ico"
+
+IDI_ICON485             ICON                    "C:\\win98_icons\\ico\\registration_no.ico"
+
+IDI_ICON486             ICON                    "C:\\win98_icons\\ico\\removable_disk_drive.ico"
+
+IDI_ICON487             ICON                    "C:\\win98_icons\\ico\\removable_disk_drive_alt.ico"
+
+IDI_ICON488             ICON                    "C:\\win98_icons\\ico\\rename.ico"
+
+IDI_ICON489             ICON                    "C:\\win98_icons\\ico\\replace_directory.ico"
+
+IDI_ICON490             ICON                    "C:\\win98_icons\\ico\\replace_file.ico"
+
+IDI_ICON491             ICON                    "C:\\win98_icons\\ico\\restrict.ico"
+
+IDI_ICON492             ICON                    "C:\\win98_icons\\ico\\rj_jack.ico"
+
+IDI_ICON493             ICON                    "C:\\win98_icons\\ico\\Roland_GS.ico"
+
+IDI_ICON494             ICON                    "C:\\win98_icons\\ico\\scandisk.ico"
+
+IDI_ICON495             ICON                    "C:\\win98_icons\\ico\\scanner.ico"
+
+IDI_ICON496             ICON                    "C:\\win98_icons\\ico\\scanner_alt.ico"
+
+IDI_ICON497             ICON                    "C:\\win98_icons\\ico\\scanner_alt_network.ico"
+
+IDI_ICON498             ICON                    "C:\\win98_icons\\ico\\scanner_camera.ico"
+
+IDI_ICON499             ICON                    "C:\\win98_icons\\ico\\scanner_video_cam.ico"
+
+IDI_ICON500             ICON                    "C:\\win98_icons\\ico\\scanregw.ico"
+
+IDI_ICON501             ICON                    "C:\\win98_icons\\ico\\sched_tasks.ico"
+
+IDI_ICON502             ICON                    "C:\\win98_icons\\ico\\screen_keyboard.ico"
+
+IDI_ICON503             ICON                    "C:\\win98_icons\\ico\\script_file_blue.ico"
+
+IDI_ICON504             ICON                    "C:\\win98_icons\\ico\\script_file_teal.ico"
+
+IDI_ICON505             ICON                    "C:\\win98_icons\\ico\\script_file_yellow.ico"
+
+IDI_ICON506             ICON                    "C:\\win98_icons\\ico\\scsi.ico"
+
+IDI_ICON507             ICON                    "C:\\win98_icons\\ico\\search_computer.ico"
+
+IDI_ICON508             ICON                    "C:\\win98_icons\\ico\\search_directory.ico"
+
+IDI_ICON509             ICON                    "C:\\win98_icons\\ico\\search_file.ico"
+
+IDI_ICON510             ICON                    "C:\\win98_icons\\ico\\search_file_2.ico"
+
+IDI_ICON511             ICON                    "C:\\win98_icons\\ico\\search_file_2_cool.ico"
+
+IDI_ICON512             ICON                    "C:\\win98_icons\\ico\\search_file_3.ico"
+
+IDI_ICON513             ICON                    "C:\\win98_icons\\ico\\search_laptop_1.ico"
+
+IDI_ICON514             ICON                    "C:\\win98_icons\\ico\\search_laptop_2.ico"
+
+IDI_ICON515             ICON                    "C:\\win98_icons\\ico\\search_laptop_3.ico"
+
+IDI_ICON516             ICON                    "C:\\win98_icons\\ico\\search_laptop_4.ico"
+
+IDI_ICON517             ICON                    "C:\\win98_icons\\ico\\search_server.ico"
+
+IDI_ICON518             ICON                    "C:\\win98_icons\\ico\\search_web.ico"
+
+IDI_ICON519             ICON                    "C:\\win98_icons\\ico\\server_gear.ico"
+
+IDI_ICON520             ICON                    "C:\\win98_icons\\ico\\server_to_desktop.ico"
+
+IDI_ICON521             ICON                    "C:\\win98_icons\\ico\\server_window.ico"
+
+IDI_ICON522             ICON                    "C:\\win98_icons\\ico\\settings_gear.ico"
+
+IDI_ICON523             ICON                    "C:\\win98_icons\\ico\\settings_gear_cool.ico"
+
+IDI_ICON524             ICON                    "C:\\win98_icons\\ico\\shell_window1.ico"
+
+IDI_ICON525             ICON                    "C:\\win98_icons\\ico\\shell_window2.ico"
+
+IDI_ICON526             ICON                    "C:\\win98_icons\\ico\\shell_window3.ico"
+
+IDI_ICON527             ICON                    "C:\\win98_icons\\ico\\shell_window4.ico"
+
+IDI_ICON528             ICON                    "C:\\win98_icons\\ico\\shell_window5.ico"
+
+IDI_ICON529             ICON                    "C:\\win98_icons\\ico\\shell_window6.ico"
+
+IDI_ICON530             ICON                    "C:\\win98_icons\\ico\\shut_down_cool.ico"
+
+IDI_ICON531             ICON                    "C:\\win98_icons\\ico\\shut_down_normal.ico"
+
+IDI_ICON532             ICON                    "C:\\win98_icons\\ico\\shut_down_with_computer.ico"
+
+IDI_ICON533             ICON                    "C:\\win98_icons\\ico\\signature.ico"
+
+IDI_ICON534             ICON                    "C:\\win98_icons\\ico\\signature_excl.ico"
+
+IDI_ICON535             ICON                    "C:\\win98_icons\\ico\\signature_no.ico"
+
+IDI_ICON536             ICON                    "C:\\win98_icons\\ico\\sndvol32_input.ico"
+
+IDI_ICON537             ICON                    "C:\\win98_icons\\ico\\sndvol32_main.ico"
+
+IDI_ICON538             ICON                    "C:\\win98_icons\\ico\\sndvol32_output.ico"
+
+IDI_ICON539             ICON                    "C:\\win98_icons\\ico\\SoundGrn.ico"
+
+IDI_ICON540             ICON                    "C:\\win98_icons\\ico\\SoundPu2.ico"
+
+IDI_ICON541             ICON                    "C:\\win98_icons\\ico\\SoundPur.ico"
+
+IDI_ICON542             ICON                    "C:\\win98_icons\\ico\\SoundTel.ico"
+
+IDI_ICON543             ICON                    "C:\\win98_icons\\ico\\SoundVor.ico"
+
+IDI_ICON544             ICON                    "C:\\win98_icons\\ico\\SoundYel.ico"
+
+IDI_ICON545             ICON                    "C:\\win98_icons\\ico\\spider.ico"
+
+IDI_ICON546             ICON                    "C:\\win98_icons\\ico\\standby_monitor_moon.ico"
+
+IDI_ICON547             ICON                    "C:\\win98_icons\\ico\\standby_monitor_moon_cool.ico"
+
+IDI_ICON548             ICON                    "C:\\win98_icons\\ico\\start_menu_shortcuts.ico"
+
+IDI_ICON549             ICON                    "C:\\win98_icons\\ico\\start_menu_xp.ico"
+
+IDI_ICON550             ICON                    "C:\\win98_icons\\ico\\system_restore.ico"
+
+IDI_ICON551             ICON                    "C:\\win98_icons\\ico\\telephony.ico"
+
+IDI_ICON552             ICON                    "C:\\win98_icons\\ico\\template_directory_net_web.ico"
+
+IDI_ICON553             ICON                    "C:\\win98_icons\\ico\\template_empty.ico"
+
+IDI_ICON554             ICON                    "C:\\win98_icons\\ico\\template_nework_conn.ico"
+
+IDI_ICON555             ICON                    "C:\\win98_icons\\ico\\template_nework_places.ico"
+
+IDI_ICON556             ICON                    "C:\\win98_icons\\ico\\template_printer.ico"
+
+IDI_ICON557             ICON                    "C:\\win98_icons\\ico\\template_scanner_camera.ico"
+
+IDI_ICON558             ICON                    "C:\\win98_icons\\ico\\template_sched_task.ico"
+
+IDI_ICON559             ICON                    "C:\\win98_icons\\ico\\template_world.ico"
+
+IDI_ICON560             ICON                    "C:\\win98_icons\\ico\\themes.ico"
+
+IDI_ICON561             ICON                    "C:\\win98_icons\\ico\\time_and_date.ico"
+
+IDI_ICON562             ICON                    "C:\\win98_icons\\ico\\tip.ico"
+
+IDI_ICON563             ICON                    "C:\\win98_icons\\ico\\tools_gear.ico"
+
+IDI_ICON564             ICON                    "C:\\win98_icons\\ico\\tree.ico"
+
+IDI_ICON565             ICON                    "C:\\win98_icons\\ico\\true_type_paint.ico"
+
+IDI_ICON566             ICON                    "C:\\win98_icons\\ico\\trust0.ico"
+
+IDI_ICON567             ICON                    "C:\\win98_icons\\ico\\trust1_restrict.ico"
+
+IDI_ICON568             ICON                    "C:\\win98_icons\\ico\\tune-up.ico"
+
+IDI_ICON569             ICON                    "C:\\win98_icons\\ico\\unplug_eject_pc.ico"
+
+IDI_ICON570             ICON                    "C:\\win98_icons\\ico\\unplug_storage.ico"
+
+IDI_ICON571             ICON                    "C:\\win98_icons\\ico\\ups.ico"
+
+IDI_ICON572             ICON                    "C:\\win98_icons\\ico\\url1.ico"
+
+IDI_ICON573             ICON                    "C:\\win98_icons\\ico\\url1a.ico"
+
+IDI_ICON574             ICON                    "C:\\win98_icons\\ico\\url2.ico"
+
+IDI_ICON575             ICON                    "C:\\win98_icons\\ico\\usb.ico"
+
+IDI_ICON576             ICON                    "C:\\win98_icons\\ico\\usb_port.ico"
+
+IDI_ICON577             ICON                    "C:\\win98_icons\\ico\\user_calendar.ico"
+
+IDI_ICON578             ICON                    "C:\\win98_icons\\ico\\user_card.ico"
+
+IDI_ICON579             ICON                    "C:\\win98_icons\\ico\\user_card_view.ico"
+
+IDI_ICON580             ICON                    "C:\\win98_icons\\ico\\user_computer.ico"
+
+IDI_ICON581             ICON                    "C:\\win98_icons\\ico\\user_computer_pair.ico"
+
+IDI_ICON582             ICON                    "C:\\win98_icons\\ico\\user_network.ico"
+
+IDI_ICON583             ICON                    "C:\\win98_icons\\ico\\user_world.ico"
+
+IDI_ICON584             ICON                    "C:\\win98_icons\\ico\\users.ico"
+
+IDI_ICON585             ICON                    "C:\\win98_icons\\ico\\users_green.ico"
+
+IDI_ICON586             ICON                    "C:\\win98_icons\\ico\\users_key.ico"
+
+IDI_ICON587             ICON                    "C:\\win98_icons\\ico\\utopia_smiley.ico"
+
+IDI_ICON588             ICON                    "C:\\win98_icons\\ico\\video_.ico"
+
+IDI_ICON589             ICON                    "C:\\win98_icons\\ico\\video_compression.ico"
+
+IDI_ICON590             ICON                    "C:\\win98_icons\\ico\\video_gr.ico"
+
+IDI_ICON591             ICON                    "C:\\win98_icons\\ico\\video_mg.ico"
+
+IDI_ICON592             ICON                    "C:\\win98_icons\\ico\\video_mk.ico"
+
+IDI_ICON593             ICON                    "C:\\win98_icons\\ico\\video_tl.ico"
+
+IDI_ICON594             ICON                    "C:\\win98_icons\\ico\\web_file.ico"
+
+IDI_ICON595             ICON                    "C:\\win98_icons\\ico\\web_file_set.ico"
+
+IDI_ICON596             ICON                    "C:\\win98_icons\\ico\\wia_img_a.ico"
+
+IDI_ICON597             ICON                    "C:\\win98_icons\\ico\\wia_img_check.ico"
+
+IDI_ICON598             ICON                    "C:\\win98_icons\\ico\\wia_img_color.ico"
+
+IDI_ICON599             ICON                    "C:\\win98_icons\\ico\\wia_img_color_sound.ico"
+
+IDI_ICON600             ICON                    "C:\\win98_icons\\ico\\wia_img_gray.ico"
+
+IDI_ICON601             ICON                    "C:\\win98_icons\\ico\\window_red_hilights.ico"
+
+IDI_ICON602             ICON                    "C:\\win98_icons\\ico\\windows.ico"
+
+IDI_ICON603             ICON                    "C:\\win98_icons\\ico\\windows_button.ico"
+
+IDI_ICON604             ICON                    "C:\\win98_icons\\ico\\windows_movie.ico"
+
+IDI_ICON605             ICON                    "C:\\win98_icons\\ico\\windows_slanted.ico"
+
+IDI_ICON606             ICON                    "C:\\win98_icons\\ico\\windows_three.ico"
+
+IDI_ICON607             ICON                    "C:\\win98_icons\\ico\\windows_title.ico"
+
+IDI_ICON608             ICON                    "C:\\win98_icons\\ico\\windows_update_large.ico"
+
+IDI_ICON609             ICON                    "C:\\win98_icons\\ico\\windows_update_old.ico"
+
+IDI_ICON610             ICON                    "C:\\win98_icons\\ico\\windows_update_small.ico"
+
+IDI_ICON611             ICON                    "C:\\win98_icons\\ico\\WinRep.ico"
+
+IDI_ICON612             ICON                    "C:\\win98_icons\\ico\\winrep_mag_glass.ico"
+
+IDI_ICON613             ICON                    "C:\\win98_icons\\ico\\wm.ico"
+
+IDI_ICON614             ICON                    "C:\\win98_icons\\ico\\wm_file.ico"
+
+IDI_ICON615             ICON                    "C:\\win98_icons\\ico\\world.ico"
+
+IDI_ICON616             ICON                    "C:\\win98_icons\\ico\\world_address_book.ico"
+
+IDI_ICON617             ICON                    "C:\\win98_icons\\ico\\world_lock.ico"
+
+IDI_ICON618             ICON                    "C:\\win98_icons\\ico\\world_network_directories.ico"
+
+IDI_ICON619             ICON                    "C:\\win98_icons\\ico\\world_phonereceiver.ico"
+
+IDI_ICON620             ICON                    "C:\\win98_icons\\ico\\world_star.ico"
+
+IDI_ICON621             ICON                    "C:\\win98_icons\\ico\\write_card_phone.ico"
+
+IDI_ICON622             ICON                    "C:\\win98_icons\\ico\\write_file.ico"
+
+IDI_ICON623             ICON                    "C:\\win98_icons\\ico\\write_red.ico"
+
+IDI_ICON624             ICON                    "C:\\win98_icons\\ico\\write_wordpad.ico"
+
+IDI_ICON625             ICON                    "C:\\win98_icons\\ico\\write_yellow.ico"
+
+IDI_ICON626             ICON                    "C:\\win98_icons\\ico\\xml.ico"
+
+IDI_ICON627             ICON                    "C:\\win98_icons\\ico\\xml_gear.ico"
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
