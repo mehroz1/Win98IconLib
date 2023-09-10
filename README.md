@@ -8,7 +8,7 @@
  # Change Default Icons of Windows 10
  Please refer to FileTypesMan utility. http://www.nirsoft.net/utils/file_types_manager.html
  
- # Reffernces:
+ # References:
  
  https://stackoverflow.com/a/4699154
  
